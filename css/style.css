@@ -337,20 +337,46 @@ input:checked + .slider:before {
   clear: both;
   margin-bottom:5px;
 }
-.preview{
-  background-color: #EDEAEA;
-  width: 100%;
-  
 
+.video-sidebars ul {
+    margin: 0;
+    padding: 0 5px 0 5px;
 }
-.preview img{
-  width: 150px;
-  height: 100px;
+
+.video-sidebars ul li {
+  list-style: none;
+}
+
+.single-video .on-left {
   float: left;
-
-}
-.preview div:nth-child(n) {
-margin-bottom: 5px;
 }
 
+.single-video .on-right {
+  float: right;
+}
 
+.on-left img {
+  width: 130px;
+  height: auto;
+}
+
+.on-right {
+    padding: 0 0 0 10px;
+}
+
+.on-right h4 {
+  margin: 0;
+}
+
+.on-right p {
+  margin: 7px 0 7px 0;
+}
+
+.single-video {
+    display: inline-flex;
+    margin-bottom: 15px;
+}
+
+hr.hr-single {
+    margin-bottom: 25px;
+}
