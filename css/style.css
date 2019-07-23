@@ -3,6 +3,7 @@
 body {
   margin: 0;
   font-style: serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .wrapper {
@@ -366,10 +367,12 @@ input:checked + .slider:before {
 
 .on-right h4 {
   margin: 0;
+  font-size: 15px;
 }
 
 .on-right p {
   margin: 7px 0 7px 0;
+  font-size: 12px;
 }
 
 .single-video {
