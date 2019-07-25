@@ -7,20 +7,16 @@ body {
 }
 
 .wrapper {
-  padding: 0 10px 0 10px;
+    padding-bottom: 13px;
+    border-bottom: 2px solid #fafafa;
 }
 
-.topnav {
-  border-bottom: 1px solid #ccc;
-  width: 100%;
-  /* background-color: #e9e9e9; */
+.topnav.editted {
   display: inline;
-  text-align: center;
-  height: 80px;
 }
 .logo{
   margin-left: 26px;
-  margin-top: 5px;
+  margin-top: 15px;
   width: 23%;
   display: inline-block;
   text-align: left !important;
@@ -118,6 +114,7 @@ body {
   height: auto;
   float: left;
   padding: 10px 30px 10px 30px;
+  margin-top: 30px;
 }
 
 .push-right {
@@ -169,7 +166,7 @@ body {
 }
 
 .hr-line {
-    padding: 20px 0 20px 0;
+    padding: 25px 0 20px 0;
 }
 
 .image-user {
