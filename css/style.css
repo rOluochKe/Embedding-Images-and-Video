@@ -11,11 +11,65 @@ body {
 }
 
 .topnav {
-  overflow: hidden;
-  background-color: #e9e9e9;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  /* background-color: #e9e9e9; */
+  display: inline;
+  text-align: center;
+  height: 80px;
+}
+.logo{
+  margin-left: 26px;
+  margin-top: 5px;
+  width: 23%;
+  display: inline-block;
+  text-align: left !important;
+}
+.search-field{
+  width: 48%;
+  display: inline-block;
+  text-align: center;
+  
+  }
+.social-icons{
+  width: 23%;
+  display: inline-block;
+  text-align: right;
+  margin-left: 10px;
 }
 
-.topnav a {
+.social-icons a{
+  color: black;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+.btn-search {
+    color: #ADABAB;
+    text-align: center;
+    padding: 7px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    background: #ccc;
+    margin: 0 0 0 -6px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+
+.search-field input {
+    color: #ADABAB;
+    text-align: left;
+    padding: 5px 5px 5px 10px;
+    text-decoration: none;
+    font-size: 15px;
+    background: white;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+}
+/*
+.t a {
   float: right;
   display: block;
   color: black;
@@ -24,17 +78,18 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
-
-.topnav a:hover {
+*/
+/*.social-icons a:hover {
   background-color: #ddd;
   color: black;
 }
 
-.topnav a.active {
+.social-icons a.active {
   background-color: #2196F3;
   color: white;
-}
+}*/
 
+/*
 .topnav input[type=text] {
   align-items: center;
   width: 50%;
@@ -46,7 +101,9 @@ body {
   position: absolute;
   left: 100px;
 }
-.topnav img{
+*/
+
+/*.logo img{
   height: 30px;
   width: auto;
   align-items: center;
@@ -54,7 +111,7 @@ body {
   padding-right: 30px;
   
   margin-top: 10px;
-}
+} */
 
 .push-left {
   width: 70%;
