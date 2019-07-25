@@ -121,7 +121,7 @@ body {
   width: 30%;
   height: auto;
   float: right;
-  padding: 10px 30px 10px 30px;
+  padding: 10px 10px 10px 10px;
 }
 
 .hashtag {
@@ -411,8 +411,8 @@ input:checked + .slider:before {
 }
 
 .on-left img {
-  width: 130px;
-  height: auto;
+ width: 160px;
+ height: 100px;
 }
 
 .on-right {
